@@ -21,7 +21,6 @@ class EditHighScoreViewController: UITableViewController, UITextFieldDelegate {
         textField.text = highScoreItem.name
     }
     
-    
     @IBOutlet weak var doneBarButton: UIBarButtonItem!
     @IBOutlet weak var textField: UITextField!
    

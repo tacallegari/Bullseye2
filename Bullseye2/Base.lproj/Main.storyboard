@@ -15,6 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="PL1-Z5-p0x">
+                                <rect key="frame" x="0.0" y="26" width="812" height="349"/>
+                            </imageView>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dC5-7N-jU4">
                                 <rect key="frame" x="95" y="39" width="626" height="323"/>
                                 <subviews>
@@ -143,12 +146,8 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="323" id="TKG-Sj-eJg"/>
-                                    <constraint firstAttribute="width" constant="626" id="iCw-Kz-e8Z"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="PL1-Z5-p0x">
-                                <rect key="frame" x="0.0" y="26" width="812" height="349"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -158,6 +157,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PL1-Z5-p0x" secondAttribute="bottom" id="bWV-YB-RHd"/>
                             <constraint firstItem="dC5-7N-jU4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="cxB-Fn-JYh"/>
                             <constraint firstItem="PL1-Z5-p0x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-60" id="pSw-JZ-CKy"/>
+                            <constraint firstItem="dC5-7N-jU4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="thp-za-DDS"/>
                             <constraint firstItem="dC5-7N-jU4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="2.5" id="vIK-R0-kKO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
